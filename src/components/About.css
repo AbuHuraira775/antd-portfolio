@@ -1,0 +1,13 @@
+/* About Section Styling */
+.about-container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .about-container {
+      text-align: center;
+    }
+  }
+  
