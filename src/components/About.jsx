@@ -23,7 +23,7 @@ const About = () => {
         }}
       >
         {/* About Me Heading */}
-        <Title level={1} style={{ textAlign: "center", fontWeight: "bold" }}>
+        <Title level={1} style={{ textAlign: "center", fontWeight: "bold",marginBottom:"50px" }}>
           About Me
         </Title>
 
@@ -63,7 +63,6 @@ const About = () => {
         <Experience />
       <Education />
 
-      <Contact />
       </motion.div>
     </>
   );

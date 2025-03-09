@@ -89,9 +89,9 @@ const Education = () => {
                 dot={<BookOutlined style={{ fontSize: "18px", color: "#1890ff" }} />}
                 color="blue"
               >
-                <Title level={4} style={{ marginBottom: 0 }}>{edu.degree}</Title>
-                <Paragraph style={{ fontSize: "16px", color: "#555", marginBottom: "5px" }}>
-                  <a href={edu.website} target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", gap: "8px", textDecoration: "none", color: "inherit" }}>
+                <Title level={4} style={{ marginBottom:"10px" }}>{edu.degree}</Title>
+                <Paragraph style={{ fontSize: "16px", color: "#555", marginBottom:"5px" }}>
+                  <a href={edu.website} target="_blank" rel="noopener noreferrer" style={{ marginBottom:"10px",display: "flex", alignItems: "center", gap: "8px", textDecoration: "none", color: "inherit" }}>
                     <img src={edu.logo} alt={edu.institution} style={{ width: "24px", height: "24px" }} />
                     <strong>{edu.institution}</strong>
                   </a>

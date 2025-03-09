@@ -45,7 +45,7 @@ const Contact = () => {
       style={{ maxWidth: "500px", margin: "auto", padding: "40px" }}
     >
        {contextHolder}
-      <h2>Contact Me</h2>
+      <h2 style={{marginBottom:"20px"}}>Contact Me</h2>
       <Form layout="vertical" onFinish={onFinish}>
         <Form.Item label="Name" name="name" rules={[{ required: true, message: "Please enter your name" }]}>
           <Input placeholder="Your Name" />

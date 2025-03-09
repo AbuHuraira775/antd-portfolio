@@ -46,9 +46,9 @@ const Experience = () => {
                 dot={<RocketOutlined style={{ fontSize: "18px", color: "#1890ff" }} />}
                 color="blue"
               >
-                <Title level={4} style={{ marginBottom: 0 }}>{exp.title}</Title>
+                <Title level={4} style={{ marginBottom: '10px' }}>{exp.title}</Title>
                 <Paragraph style={{ fontSize: "16px", color: "#555", marginBottom: "5px" }}>
-                  <a href={exp.website} target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", gap: "8px", textDecoration: "none", color: "inherit" }}>
+                  <a href={exp.website} target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", gap: "8px", textDecoration: "none", color: "inherit",marginBottom:"10px" }}>
                     <img src={exp.logo} alt={exp.company} style={{ width: "24px", height: "24px", borderRadius:"50%" }} />
                     <strong>{exp.company}</strong>
                   </a>
