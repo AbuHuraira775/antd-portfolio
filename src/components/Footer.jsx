@@ -8,10 +8,10 @@ const MyFooter = () => {
     <Footer style={{ textAlign: "center", background: "#f9f9f9", color: "#333", padding: "30px 20px", minHeight: "20vh" }}>
 
       <div style={{ display: "flex", justifyContent: "center", gap: "15px" }}>
-        <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/AbuHuraira775" target="_blank" rel="noopener noreferrer">
           <GithubOutlined style={{ fontSize: "20px", color: "#333" }} />
         </a>
-        <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/abu-huraira-a9828922a/" target="_blank" rel="noopener noreferrer">
           <LinkedinOutlined style={{ fontSize: "20px", color: "#0077b5" }} />
         </a>
         <a href="mailto:abuhurairah775@gmail.com">

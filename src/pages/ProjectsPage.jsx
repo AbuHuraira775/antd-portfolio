@@ -156,14 +156,24 @@ const ProjectsPage = () => {
                     </Paragraph>
 
                     <div style={{ display: "flex", gap: "10px", marginTop: "10px" }}>
-                      <Button icon={<GithubOutlined />} href={project.github} target="_blank">
-                        GitHub
-                      </Button>
+                      {project.title === "E-commerce Web" ? (
+                        <Button type="default" disabled>
+                          In Progress
+                        </Button>
+                      ) : (
+                        <>
+                          <Button icon={<GithubOutlined />} href={project.github} target="_blank">
+                            GitHub
+                          </Button>
 
-                      <Button type="primary" icon={<EyeOutlined />} href={project.live} target="_blank">
-                        Live Preview
-                      </Button>
+                          <Button type="primary" icon={<EyeOutlined />} href={project.live} target="_blank">
+                            Live Preview
+                          </Button>
+                        </>
+                      )}
                     </div>
+
+
                   </div>
                 </div>
               </motion.div>
