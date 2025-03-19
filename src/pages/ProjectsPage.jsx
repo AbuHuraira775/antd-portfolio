@@ -7,6 +7,22 @@ const { Title, Paragraph } = Typography;
 
 const allProjects = [
   {
+    title: "Travel Agency Back Office Management System",
+    description: "Developed a React-based back-office system for a travel agency, enabling management of tour packages, vehicle maintenance, scheduled & custom tours. Integrated dynamic pricing with discount application for seamless cost adjustments.",
+    category: "Frontend",
+    image: "https://i.pinimg.com/474x/1b/d3/ee/1bd3ee5ab1346365e8bb01e5faa48146.jpg",
+    // github: "https://github.com/yourusername/travel-agency-backoffice",
+    // live: "https://travel-agency-dashboard.vercel.app/"
+},
+{
+  title: "FYP Management System",
+  description: "Designed the UI/UX in Figma for an FYP Management System built using PHP and Laravel. Focused on creating an intuitive and seamless user experience for project tracking, student evaluations.",
+  category: "Frontend",
+  image: "/images/fyp-management.png",
+  figma: "https://www.figma.com/your-figma-link"
+},
+
+  {
     title: "E-commerce Web",
     description: "Built a dynamic e-commerce platform using React, Redux Toolkit, and React Router, featuring protected routes for secure access. Designed a responsive UI with Ant Design, ensuring seamless navigation and a smooth user experience",
     category: "Frontend",
@@ -30,14 +46,14 @@ const allProjects = [
   //   github: "https://github.com/yourgithub/weather-app",
   //   live: "https://your-weather-app.com",
   // },
-  {
-    title: "Landings page",
-    description: "Created a responsive landing page using HTML and CSS, featuring a sleek UI and smooth navigation for an engaging user experience",
-    category: "Frontend",
-    image: "images/landingpage.png",
-    github: "https://github.com/AbuHuraira775/landingpage",
-    live: "https://landingpage-rho-henna.vercel.app/",
-  },
+  // {
+  //   title: "Landings page",
+  //   description: "Created a responsive landing page using HTML and CSS, featuring a sleek UI and smooth navigation for an engaging user experience",
+  //   category: "Frontend",
+  //   image: "images/landingpage.png",
+  //   github: "https://github.com/AbuHuraira775/landingpage",
+  //   live: "https://landingpage-rho-henna.vercel.app/",
+  // },
   {
     title: "Pakistani Products",
     description: "Developed a backend project to promote the boycott of Israeli products. Suggested Pakistani alternatives to encourage ethical consumer choices and social awareness. ViewProject",
@@ -54,14 +70,14 @@ const allProjects = [
     github: "https://github.com/AbuHuraira775/Y-Game",
     live: "https://github.com/AbuHuraira775/Y-Game",
   },
-  {
-    title: "Book Inventory",
-    description: "Developed a Book Inventory System using the MENR (MongoDB, Express.js, Node.js, React) stack. This system allows users to add, update, delete, and search books in a centralized database. It features a secure authentication system using JWT and role-based access control (admin/user).",
-    category: "Fullstack",
-    image: "images/book.png",
-    github: "https://github.com/AbuHuraira775/book-inventory/tree/main/MERN%20BOOK%20PROJECT",
-    live: "https://github.com/AbuHuraira775/book-inventory",
-  }
+  // {
+  //   title: "Book Inventory",
+  //   description: "Developed a Book Inventory System using the MENR (MongoDB, Express.js, Node.js, React) stack. This system allows users to add, update, delete, and search books in a centralized database. It features a secure authentication system using JWT and role-based access control (admin/user).",
+  //   category: "Fullstack",
+  //   image: "images/book.png",
+  //   github: "https://github.com/AbuHuraira775/book-inventory/tree/main/MERN%20BOOK%20PROJECT",
+  //   live: "https://github.com/AbuHuraira775/book-inventory",
+  // }
 ];
 
 const ProjectsPage = () => {
@@ -162,7 +178,7 @@ const ProjectsPage = () => {
                         </Button>
                       ) : (
                         <>
-                          <Button icon={<GithubOutlined />} href={project.github} target="_blank">
+                          <Button icon={<GithubOutlined />} href={ project.github} target="_blank">
                             GitHub
                           </Button>
 
