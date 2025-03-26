@@ -16,8 +16,8 @@ const Contact = () => {
         "service_to4kszt",  // Replace with your EmailJS service ID
         "template_ok5qh29", // Replace with your EmailJS template ID
         {
-          from_name: values.name,
-          reply_to: values.email,
+          user_name: values.name,
+          user_email: values.email,
           message: values.message,
         },
         "pnaxdeAlZ0NTm72cP" // Replace with your EmailJS public key
@@ -31,7 +31,8 @@ const Contact = () => {
       messageApi.open({
         type: 'error',
         content: 'Message sending failed',
-      });    } finally {
+      });
+    } finally {
       setLoading(false); // Stop loading state
     }
   };
@@ -44,8 +45,8 @@ const Contact = () => {
       transition={{ duration: 1 }}
       style={{ maxWidth: "500px", margin: "auto", padding: "40px" }}
     >
-       {contextHolder}
-      <h2 style={{marginBottom:"20px"}}>Contact Me</h2>
+      {contextHolder}
+      <h2 style={{ marginBottom: "20px" }}>Contact Me</h2>
       <Form layout="vertical" onFinish={onFinish}>
         <Form.Item label="Name" name="name" rules={[{ required: true, message: "Please enter your name" }]}>
           <Input placeholder="Your Name" />
