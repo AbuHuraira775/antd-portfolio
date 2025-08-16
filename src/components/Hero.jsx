@@ -66,7 +66,7 @@ const Hero = () => {
             <Button type="default" style={{margin:'0 10px 10px 0'}} icon={<LinkedinOutlined />} href="https://www.linkedin.com/in/abu-huraira-a9828922a/" target="_blank">
               LinkedIn
             </Button>
-            <Button type="default" style={{margin:'0 10px 10px 0'}} icon={<DownloadOutlined />} href="/resume/resume.pdf" download='Abu Huraira (MERN STACK)'>
+            <Button type="default" style={{margin:'0 10px 10px 0'}} icon={<DownloadOutlined />} href="/resume/resume.pdf" download="Abu Huraira - Graduate'25">
               Resume
             </Button>
           </div>

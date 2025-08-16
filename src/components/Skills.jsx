@@ -25,7 +25,7 @@ const skills = [
   { name: "C Language", icon: <SiC />, color: "#A8B9CC", category: "Basic", tooltip: "Basic understanding of C programming and its fundamentals." },
   { name: "Postman", icon: <SiPostman />, color: "#FF6C37", category: "Tools", tooltip: "API testing and development tool." },
   { name: "GitHub", icon: <SiGithub />, color: "#181717", category: "Tools", tooltip: "Version control and collaboration platform." },
-  { name: "Ant Design", icon: <SiAntdesign />, color: "#0170FE", category: "Tools", tooltip: "Design system for enterprise applications." }
+  // { name: "Ant Design", icon: <SiAntdesign />, color: "#0170FE", category: "Tools", tooltip: "Design system for enterprise applications." }
 ];
 
 const Skills = () => {
